@@ -4,5 +4,4 @@
 - <>
 
 ## Paper site
-https://koreascience.kr/article/CFKO202333855046587.page  
-- VGG-Kface : An Optimization Study on Korean Face Recognition Using VGG-Face
+https://koreascience.kr/article/CFKO202333855046587.page  <VGG-Kface : An Optimization Study on Korean Face Recognition Using VGG-Face>

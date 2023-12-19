@@ -7,10 +7,18 @@ ICT 스마트해상물류 Project 주제: 입출입트럭 운전자확인 및 �
 https://koreascience.kr/article/CFKO202333855046587.page  <VGG-Kface : An Optimization Study on Korean Face Recognition Using VGG-Face>
 
 ## AI Hub Dataset
-
+AI hub의 한국인 안면 이미지 dataset을 사용  
+https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=83
 
 ## Model & Loss function
+모델은 VGG Face를 사용했으며 기존 학습되어 있는 모델에 마지막 레이어만 학습시키는 전이 학습 방식을 채택했다.  
+loss funcion은 triplet loss로 양성 image pair와 음성 image pair의 비율을 조정해가면서 최적화했다.
+https://drive.google.com/file/d/1nYxqw-soLeMVI70QHpN9vMU7ZfO89iaG/view?usp=sharing
 
+위 코드를 통해 학습한 가중치를 아래 코드에서 성능 평가를 진행했다.
+Model performance는 same class와 different class 각각에 해당하는 데이터를 400개씩 샘플링하여 클래스 별 벡터 거리의 분포를 확인하고 모델의 성능 지표로 두 분포가 겹치는 영역의 넓이를 새로 제시했다.
+![image](https://github.com/seunghan11/ICT-Project/assets/88572826/2c6ffc77-a6e8-400d-b808-5956498a2e50)
+예시 이미지. same class:different class=6:4
 
 ## Result
 

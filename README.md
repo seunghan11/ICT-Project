@@ -17,7 +17,7 @@ https://drive.google.com/file/d/1nYxqw-soLeMVI70QHpN9vMU7ZfO89iaG/view?usp=shari
 
 위 코드를 통해 학습한 가중치를 아래 코드에서 성능 평가를 진행했다.
 Model performance는 same class와 different class 각각에 해당하는 데이터를 400개씩 샘플링하여 클래스 별 벡터 거리의 분포를 확인하고 모델의 성능 지표로 두 분포가 겹치는 영역의 넓이를 새로 제시했다.  
-<img src="https://github.com/seunghan11/ICT-Project/assets/88572826/2c6ffc77-a6e8-400d-b808-5956498a2e50" width="700" height="300">  
+<img src="https://github.com/seunghan11/ICT-Project/assets/88572826/2c6ffc77-a6e8-400d-b808-5956498a2e50" width="300" height="100">  
 예시 이미지. same class:different class=6:4
 
 ## Result
